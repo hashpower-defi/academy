@@ -83,7 +83,7 @@ const Home: NextPage = () => {
                 {/* Classes */}
                 <section className="section" id="class">
                     <div id="section__title">
-                        <p>Classes</p>
+                        <p>Classes </p>
                     </div>
                     <div className="grid lg:grid-cols-3 gap-10">
                         <ClassComponent title="[TOUR] Crypto Farm & Mining Rigs" imgSrc="/class1.jpg" hours="30 min" fee="₩10,000" />
