@@ -76,7 +76,7 @@ const Home: NextPage = () => {
                                 <div className="text-2xl md:text-5xl lg:text-8xl font-black">DeFi Academy</div>
                                 <div className="text-2xl md:text-5xl lg:text-8xl font-black gradient-border-text">HashPower Finance&nbsp;</div>
                             </div>
-                            <img src="/HP_symbol_Poly.png" alt="logo" className="pb-8 lg:pb-20 w-1/12" />
+                            <img src="HP_symbol_Poly.png" alt="logo" className="pb-8 lg:pb-20 w-1/12" />
                             <div className="lg:text-2xl font-light pb-20">We help you understand blockchain finance</div>
                         </div>
                     </div>
@@ -88,9 +88,9 @@ const Home: NextPage = () => {
                         <p>Classes </p>
                     </div>
                     <div className="grid lg:grid-cols-3 gap-10">
-                        <ClassComponent title="[TOUR] Crypto Farm & Mining Rigs" imgSrc="/class1.jpg" hours="30 min" fee="₩10,000" />
-                        <ClassComponent title="[VIP] DeFi 1:1 Session" imgSrc="/class2.jpg" hours="1 hr" fee="₩50,000" />
-                        <ClassComponent title="[CLASS] Intro to Crypto & DeFi" imgSrc="/class3.jpg" fee="₩30,000" discountFee="Free" />
+                        <ClassComponent title="[TOUR] Crypto Farm & Mining Rigs" imgSrc="class1.jpg" hours="30 min" fee="₩10,000" />
+                        <ClassComponent title="[VIP] DeFi 1:1 Session" imgSrc="class2.jpg" hours="1 hr" fee="₩50,000" />
+                        <ClassComponent title="[CLASS] Intro to Crypto & DeFi" imgSrc="class3.jpg" fee="₩30,000" discountFee="Free" />
                     </div>
                 </section>
 
@@ -112,7 +112,7 @@ const Home: NextPage = () => {
                         <p>Product</p>
                     </div>
                     <div className="flex justify-center ">
-                        <img src="/rig_product.jpg" alt="products" className="rig-height" />
+                        <img src="rig_product.jpg" alt="products" className="rig-height" />
                         <div className="flex flex-col justify-center items-center w-1/2 bg-white text-black">
                             <div className="rig-text font-bold">ASIC-S19J PRO-96TH</div>
                             <div className="m-10">_____</div>
