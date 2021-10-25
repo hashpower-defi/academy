@@ -13,7 +13,7 @@
         @apply bg-[#14161b] text-white;
         margin: 0rem 3rem;
         /* background-image: url(/gradation_color@2x.png); */
-        background-image: url(${process.env.BACKEND_URL}/color_dots_blend.png);
+        background-image: url(/color_dots_blend.png);
         background-size: 100vw;
         background-repeat: no-repeat;
         opacity: 1;
