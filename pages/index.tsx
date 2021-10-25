@@ -66,8 +66,6 @@ const Home: NextPage = () => {
                     <Header />
                 </section>
 
-                {/* Delete 주석 */}
-
                 {/* Title */}
                 <section className="section__main__title" id="title">
                     <div className="">
