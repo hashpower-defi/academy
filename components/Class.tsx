@@ -27,8 +27,8 @@ function ClassComponent(props: Props) {
                 <p>{props.hours}&nbsp;</p>
                 {/* {props.hours && <p>{props.hours}</p>} */}
                 <div>
-                    <span className={props.discountFee && 'line-through'}> {props.fee}</span>
-                    <span>{props.discountFee}</span>
+                    <span className={props.discountFee && 'line-through'}>{props.fee}</span>
+                    <span className="font-bold text-red-600">&nbsp;&nbsp;{props.discountFee}</span>
                 </div>
                 {/* Button */}
                 <div>

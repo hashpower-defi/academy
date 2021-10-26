@@ -76,7 +76,7 @@ const Home: NextPage = () => {
                                 <div className="text-2xl md:text-5xl lg:text-8xl font-black">DeFi Academy</div>
                                 <div className="text-2xl md:text-5xl lg:text-8xl font-black gradient-border-text">HashPower Finance&nbsp;</div>
                             </div>
-                            <img src="HP_symbol_Poly.png" alt="logo" className="pb-8 lg:pb-20 w-1/12" />
+                            <img src="HP_symbol_Poly.png" alt="logo" className="pb-8 lg:pb-20 w-1/12 animate-pulse" />
                             <div className="lg:text-2xl font-light pb-20">We help you understand blockchain finance</div>
                         </div>
                     </div>
@@ -111,15 +111,14 @@ const Home: NextPage = () => {
                     <div id="section__title">
                         <p>Product</p>
                     </div>
-                    <div className="flex justify-center ">
+                    <div className="flex justify-center">
                         <img src="rig_product.jpg" alt="products" className="rig-height" />
                         <div className="flex flex-col justify-center items-center w-1/2 bg-white text-black">
-                            <div className="rig-text font-bold">ASIC-S19J PRO-96TH</div>
-                            <div className="m-10">_____</div>
-                            <div className="text-xl">₩15,000,000</div>
-                            <a href="https://hashpower.finance">
-                                <div className="border-2 mt-20 px-20 py-4 text-2xl border-[#666CF9] text-[#666CF9] cursor-pointer hover:bg-[#666CF9] hover:text-white">View Details</div>
-                            </a>
+                            <div className="rig-text font-bold">ASIC-S19J</div>
+                            <div className="rig-text font-bold">PRO-96TH</div>
+                            <div className="rig-divider">_____</div>
+                            <div className="rig-price">₩15,000,000</div>
+                            <div className="rig-button border-2 border-[#666CF9] text-[#666CF9] cursor-pointer hover:bg-[#666CF9] hover:text-white hover:cursor-not-allowed">View Details</div>
                         </div>
                     </div>
                 </section>
@@ -127,14 +126,14 @@ const Home: NextPage = () => {
                 {/* Contact */}
                 <section className="section" id="contact">
                     <div>
-                        <div className="flex gap-10">
-                            <div className="w-1/2 pl-40">
+                        <div className="flex flex-col sm:flex-row gap-10 mobile-arrange">
+                            <div className="w-3/4 sm:w-1/2 sm:pl-40">
                                 <div className="font-bold text-4xl text-[#666CF9]">GET IN TOUCH</div>
                                 <div className="pt-8">59, Seongsuil-ro 8-gil, Seongdong-gu, Seoul, Republic of Korea</div>
                             </div>
                             {/* <div className="flex flex-col w-1/3 gap-4"> */}
                             <form
-                                className="gform flex flex-col w-1/3 gap-4"
+                                className="gform flex flex-col w-3/4 sm:w-1/3 gap-1 sm:gap-4 "
                                 method="POST"
                                 data-email="cs@dazim.io"
                                 action="https://script.google.com/macros/s/AKfycbwT3617nVXhjrgOEgJaUgk3ZmSaYg7zUURMXjZHANxP-2hYn6yETMLzMJTiHsjm7BXK5g/exec"

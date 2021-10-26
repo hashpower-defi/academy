@@ -46,6 +46,11 @@
         .section__main__title {
             margin: 4rem 1rem;
         }
+
+        .mobile-arrange {
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     #section__title {
@@ -114,6 +119,46 @@
         line-height: 1;
     }
 
+    .rig-divider {
+        margin: 30px;
+    }
+
+    .rig-price {
+        font-size: 2rem;
+    }
+
+    .rig-button {
+        margin-top: 70px;
+        font-size: 30px;
+        padding: 10px 20px;
+    }
+
+    @media screen and (max-width: 640px) {
+        .rig-height {
+            height: 20vh;
+            box-sizing: border-box;
+        }
+
+        .rig-text {
+            font-size: 0.8rem;
+            line-height: 1;
+        }
+
+        .rig-divider {
+            margin: 3px;
+        }
+
+        .rig-price {
+            font-size: 0.6rem;
+        }
+
+        .rig-button {
+            margin-top: 10px;
+            font-size: 6px;
+            padding: 4px 10px;
+        }
+    }
+
     .contact__input {
         border-bottom: solid 2px white;
         background: transparent;
@@ -139,5 +184,15 @@
     .contact__input__box:focus {
         border: none;
         outline: solid #666cf9;
+    }
+
+    @media screen and (max-width: 640px) {
+        .contact__input {
+            border-bottom: solid 2px white;
+            background: transparent;
+            width: 100%;
+            padding: 10px 0;
+            outline: 0;
+        }
     }
 }
